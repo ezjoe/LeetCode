@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61080a3d-d171-452d-9d10-9e6088456090" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/eu/qiao/PrintTreeByZhiSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/eu/qiao/isSymmetrical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/eu/qiao/PrintTreeByLayerSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/eu/qiao/SerializeAndDeserializeSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/eu/qiao/GetNextSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/eu/qiao/GetNextSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/org/eu/qiao/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/org/eu/qiao/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/org/eu/qiao/deleteDuplicationSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/org/eu/qiao/deleteDuplicationSolution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/eu/qiao/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/eu/qiao/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/eu/qiao/PrintTreeByZhiSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/eu/qiao/PrintTreeByZhiSolution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,10 +37,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/eu/qiao/PrintTreeByZhiSolution.java">
+        <entry file="file://$PROJECT_DIR$/src/org/eu/qiao/SerializeAndDeserializeSolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="288">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#660#668#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/eu/qiao/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="1511" column="22" selection-start-line="1511" selection-start-column="22" selection-end-line="1511" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -88,12 +116,14 @@
         <option value="$PROJECT_DIR$/src/org/eu/qiao/MatchSolution.java" />
         <option value="$PROJECT_DIR$/src/org/eu/qiao/isNumericSolution.java" />
         <option value="$PROJECT_DIR$/src/org/eu/qiao/TowersOfHanoi.java" />
-        <option value="$PROJECT_DIR$/src/org/eu/qiao/Main.java" />
         <option value="$PROJECT_DIR$/src/org/eu/qiao/deleteDuplicationSolution.java" />
         <option value="$PROJECT_DIR$/src/org/eu/qiao/TreeLinkNode.java" />
         <option value="$PROJECT_DIR$/src/org/eu/qiao/GetNextSolution.java" />
         <option value="$PROJECT_DIR$/src/org/eu/qiao/isSymmetrical.java" />
         <option value="$PROJECT_DIR$/src/org/eu/qiao/PrintTreeByZhiSolution.java" />
+        <option value="$PROJECT_DIR$/src/org/eu/qiao/PrintTreeByLayerSolution.java" />
+        <option value="$PROJECT_DIR$/src/org/eu/qiao/Main.java" />
+        <option value="$PROJECT_DIR$/src/org/eu/qiao/SerializeAndDeserializeSolution.java" />
       </list>
     </option>
   </component>
@@ -103,7 +133,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-76" />
     <option name="y" value="-13" />
     <option name="width" value="1346" />
@@ -176,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.deleteDuplicationSolution">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FindPatchSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.eu.qiao.FindPatchSolution" />
       <module name="LeetCode" />
@@ -251,8 +281,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.deleteDuplicationSolution" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.deleteDuplicationSolution" />
         <item itemvalue="Application.FirstNotRepeatingCharSolution" />
         <item itemvalue="Application.PermutationSolution" />
         <item itemvalue="Application.FindPatchSolution" />
@@ -286,12 +316,20 @@
       <workItem from="1554269730197" duration="1886000" />
       <workItem from="1554633017036" duration="6422000" />
       <workItem from="1554697989777" duration="7920000" />
-      <workItem from="1554732711616" duration="3656000" />
+      <workItem from="1554732711616" duration="15170000" />
     </task>
+    <task id="LOCAL-00001" summary="190409">
+      <created>1554784677854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554784677854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97468000" />
+    <option name="totallyTimeSpent" value="108982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,15 +342,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3151515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2530303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.32761577" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32702237" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.9483649" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -322,7 +361,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32761577" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32702237" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -334,6 +373,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="190409" />
+    <option name="LAST_COMMIT_MESSAGE" value="190409" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -595,16 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/eu/qiao/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-404">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/eu/qiao/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -640,10 +673,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="373" column="23" selection-start-line="373" selection-start-column="23" selection-end-line="373" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eu/qiao/PrintTreeByLayerSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#331#352#0" expanded="true" />
+            <element signature="e#452#461#0" expanded="true" />
+            <element signature="e#511#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/eu/qiao/PrintTreeByZhiSolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="169">
+          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="116" column="40" lean-forward="true" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302">
+          <caret line="2420" column="20" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
+          <folding>
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eu/qiao/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="1511" column="22" selection-start-line="1511" selection-start-column="22" selection-end-line="1511" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eu/qiao/SerializeAndDeserializeSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#660#668#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

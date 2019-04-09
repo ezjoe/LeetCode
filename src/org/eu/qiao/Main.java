@@ -1,6 +1,7 @@
 package org.eu.qiao;
 
-import java.util.HashSet;
+import java.sql.Array;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -9,11 +10,25 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int[] i = new int[1];
-        System.out.println(i[0]);
+        System.out.println(Integer.reverse(10));
 
 
 
+
+/*        List<String> stooges = Arrays.asList("Larry", "Moe", "Curly");
+        Collections.reverse(stooges);
+        System.out.println(stooges);
+
+        int[] h = { 1, 2, 3, 3, 3, 3, 6, 6, 6, };
+        int i[] = Arrays.copyOf(h, 6);
+        System.out.println(i.length);
+
+        ArrayList<Integer> m = new ArrayList<>();
+        m.add(-1);        m.add(-10);
+        m.add(-100);
+        m.add(-1001);
+        Collections.reverse(m);
+        System.out.println(m);*/
 	// write your code here
         //必须true or false
 /*        if (true) {
