@@ -15,7 +15,7 @@ public class GetMedianSolution {
     // 最小堆，存储大数字
     private PriorityQueue<Integer> minHeap = new PriorityQueue<>();
     // 最大堆，存储小数字
-    private PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(15, new Comparator<Integer>() {
+    private PriorityQueue<Integer> maxHeap = new PriorityQueue<>(15, new Comparator<Integer>() {
         public int compare(Integer o1, Integer o2) {
             return o2 - o1;
         }
